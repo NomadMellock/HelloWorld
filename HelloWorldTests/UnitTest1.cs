@@ -1,5 +1,5 @@
-using Xunit;
 using HelloWorld;
+using Xunit;
 
 namespace HelloWorldTests
 {
