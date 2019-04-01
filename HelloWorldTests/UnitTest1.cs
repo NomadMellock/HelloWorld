@@ -1,15 +1,16 @@
-using System;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using HelloWorld;
-using Xunit;
 
 namespace HelloWorldTests
 {
+    [TestClass]
     public class UnitTest1
     {
-        [Fact]
-        public void Test1()
+        [TestMethod]
+        public void TestMethod1()
         {
-            Assert.Equal("Hello World 5", Program.CreateMessage());
+            Assert.AreEqual("Hello World 6", Program.CreateMessage());
         }
     }
 }
