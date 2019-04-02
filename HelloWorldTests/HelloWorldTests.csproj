@@ -53,6 +53,7 @@
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x86</PlatformTarget>
+    <IsTestProject>true</IsTestProject>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
@@ -94,7 +95,6 @@
   <ItemGroup>
     <ProjectReference Include="..\HelloWorld\HelloWorld.csproj">
       <Project>{88edecc8-fce5-4524-8e01-ea366a9194e4}</Project>
-      <IsTestProject>true</IsTestProject>
       <Name>HelloWorld</Name>
     </ProjectReference>
   </ItemGroup>
